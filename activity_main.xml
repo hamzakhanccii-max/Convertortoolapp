@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PDF Tool"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <Button android:id="@+id/btnMerge" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Merge PDFs" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnSplit" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Split PDF (har page alag file)" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnCompress" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Compress PDF" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnRotate" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Rotate Pages (90°)" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnDeletePages" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Delete Page" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnWatermark" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Add Watermark" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnToImages" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="PDF to Images (JPG)" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnProtect" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Add Password" android:layout_marginBottom="8dp"/>
+        <Button android:id="@+id/btnUnlock" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Remove Password" android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="14sp"
+            android:text="Ready." />
+
+    </LinearLayout>
+</ScrollView>
